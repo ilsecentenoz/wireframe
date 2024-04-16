@@ -1,0 +1,150 @@
+body {
+  display: grid !important;
+  place-items: normal !important;
+  min-width: 100% !important;
+  min-height: 100vh !important;
+  background-color: #FFF;
+  color: #000;
+}
+
+a , p {
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  text-align: center;
+}
+
+ul { 
+  list-style: none;
+  display: flex;
+  padding: 0;
+}
+
+li {
+  display: inline;
+  padding: 0 10px;
+}
+
+input {
+  width: 100%;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.Row {
+  display: flex;
+  justify-content: center;
+}
+
+.txt-center {
+  text-align: center;
+}
+
+.Container {
+  margin: 0 90px;
+}
+
+.Row {
+  display: flex;
+}
+
+.Menu {
+  display: flex;
+  width: 90%;
+  position: relative;
+  margin: auto;
+}
+
+.Menu__links {
+  position: absolute;
+  right: 0;
+}
+
+.Menu a {
+  margin-right: 15px;
+}
+
+.Banner {
+  position: relative;
+  border: 1px solid;
+  text-align: center;
+  height: 300px;
+  border-radius: 25px;
+}
+
+.Btn {
+  background: gray;
+  color: black;
+  padding: 10px 30px;
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 70px;
+  width: 10%;
+  margin: auto;
+}
+
+.Container__card {
+  display: flex;
+}
+
+.Card {
+  border: 1px solid;
+  margin: 15px;
+  border-radius: 25px;
+  width: 100%;
+  height: 300px;
+  
+}
+
+.Card p {
+  text-align: center;
+}
+
+.Container__CCard {
+  width: 20%;
+  height: 300px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 1px 5px 5px gray;
+  margin: 40px 10px;
+}
+
+.Circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  background-color: gray;
+  margin: auto;
+}
+
+.Rectangle {
+  background-color: gray;
+  border-radius: 10px;
+  margin: auto;
+}
+
+.JC-SpaceA {
+  justify-content: space-around;
+}
+
+.Container__Form {
+  width: 50%;
+  border-radius: 20px;
+  background-color: gray;
+  padding: 35px 60px;
+  margin: 30px;
+  
+}
+
+
+.Container__MBanner {
+  width: 90%;
+  height: 200px;
+  background-color: gray;
+  border-radius: 25px;
+  margin: auto;
+  text-align: center;
+}
